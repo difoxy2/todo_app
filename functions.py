@@ -1,5 +1,5 @@
-import os
 FILEPATH = 'todo.txt'
+import os
 
 
 
