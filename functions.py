@@ -1,6 +1,9 @@
 import os
 FILEPATH = 'todo.txt'
 
+
+
+
 def writedata(data_list):
     with open(FILEPATH, 'w') as f:
         for i in data_list:
