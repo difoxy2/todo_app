@@ -1,5 +1,5 @@
-import os
 FILEPATH = 'todo.txt'
+import os
 
 def writedata(data_list):
     with open(FILEPATH, 'w') as f:
