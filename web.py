@@ -11,6 +11,7 @@ print('list loaded')
 for index, i in enumerate(list):
     if st.checkbox(i,key='checkbox'+str(index)):
         functions.delete_todo(index)
+        del st.session_state['checkbox'+str(index)]
         print('About to rerun()')
         st.rerun()
         
@@ -26,4 +27,4 @@ text_input = st.text_input(label='',placeholder='Type in a to-do', key='textinpu
 
 
 
-#st.write(st.session_state)
+#st.session_state
