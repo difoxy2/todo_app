@@ -23,7 +23,7 @@ def textInputchange():
             st.session_state['textinput1']=''
             print("st.session_state['textinput1']=gone")
 
-text_input = st.text_input(label='',placeholder='Type in a to-do', key='textinput1',on_change=textInputchange)
+text_input = st.text_input(label='label',label_visibility='hidden',placeholder='Type in a to-do', key='textinput1',on_change=textInputchange)
 
 
 
