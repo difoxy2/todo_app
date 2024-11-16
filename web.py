@@ -26,4 +26,4 @@ text_input = st.text_input(label='',placeholder='Type in a to-do', key='textinpu
 
 
 
-st.write(st.session_state)
+#st.write(st.session_state)
